@@ -13,6 +13,22 @@ cr.execute('select * from user_skills')
 
 save = cr.fetchall()
 
+save2=[[2646,	'Muhib',	'Python',	70],
+[2367,	'Majd',	'C++'	,50],
+[3326,	'Maram',	'JavaScript',	40],
+[4546,	'Leena',	'Python',	80],
+[4356,	'Muhammed',	'C#',	35],
+[467,	'Najwa',	'Java',	20],
+[346,	'Hussam',	'Python',	95],
+[43546,	'Ayana',	'C++',	33],
+[23626,	'Ayala',	'JavaScript',	77],
+[4366,	'Tala',	'Python',	55],
+[34375,	'Morga',	'C++',	26],
+[5488,	'Ghaith',	'JavaScript',	99],
+[54858,	'Anwar',	'Python',	35],
+[54780,	'Ali',	'C++',	77],
+[3445,	'Lana',	'C#',	59]]
+
 
 skills = Flask(__name__)
 
@@ -32,7 +48,7 @@ def now3():
                            self_css= 'skills.css',
                            head= 'Family Skills', 
                            des= 'You can see here our skills',
-                           data= save)
+                           data= save2)
 
 
 if __name__ == "__main__":
