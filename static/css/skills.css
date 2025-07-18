@@ -1,0 +1,61 @@
+.box-skills{
+    background-color: rgb(218, 218, 218);
+    padding: 15px;
+    margin: 20px auto;
+    border: 1px solid #cfddd3;
+    width: 420px;
+}
+
+.box-skills .id-skill{
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: rgb(157, 151, 151);
+}
+
+.box-skills .name-skill{
+    border: 1px solid #71cd8b;
+    font-family:Verdana, Tahoma, sans-serif;
+    padding: 5px;
+    width: 240px;
+    text-align: center;
+    margin: 0 80px 10px;
+    font-size: 17px;
+    background-color: rgb(95, 197, 245);
+}
+
+
+.box-skills .skill-skill{
+    border: 1px solid #6cd5f3;
+    font-family:Verdana, Tahoma, sans-serif;
+    width: 240px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 80px 10px;
+    font-size: 17px;
+    background-color: rgb(43, 226, 134);
+}
+
+.space-box{
+    text-align: center;
+}
+
+.box-skills .pro-box{
+    
+    background-color: #e5e7e7ef;
+    padding: 12px;
+    position: relative;
+}
+
+.box-skills .pro-box span{
+    position: absolute;
+    width: 50%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #eb5656;
+}
+.box-skills .pro-box .edit-pro{
+    margin: 4px 5px 0;
+}
