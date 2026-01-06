@@ -36,7 +36,7 @@ skills = Flask(__name__)
 
 @skills.route("/")
 def now():
-    return render_template("mypage.html", pagetitle="Muhib", self_css= 'my.css')
+    return render_template("index.html", pagetitle="Muhib", self_css= 'my.css')
 @skills.route('/about')
 def now2():
     return render_template('about.html', pagetitle= 'About Muhib', self_css= 'about.css')
